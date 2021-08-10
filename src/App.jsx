@@ -1,9 +1,10 @@
 import React from 'react';
+import Checkout from './pages/Checkout';
 
 const App = () => {
   return (
     <>
-      <h1>Hello react</h1>
+      <Checkout />
     </>
   );
 };

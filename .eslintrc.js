@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'arrow-body-style': 0,
+    'arrow-body-style': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
