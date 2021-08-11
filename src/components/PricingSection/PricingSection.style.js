@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
+  margin-bottom: 40px;
 
   @media only screen and (min-width: 785px) {
     max-width: 343px;
     margin-right: 32px;
+    margin-bottom: 0;
   }
 `;
 
@@ -38,9 +40,8 @@ export const StyledLink = styled.a`
 
 export const SafeCheckoutImage = styled.img`
   display: block;
-  margin: 0 auto 40px;
-
-  @media only screen and (min-width: 785px) {
-    margin: 0 auto;
+  margin: 0 auto;
+  @media only screen and (max-width: 375px) {
+    max-height: 40px;
   }
 `;

@@ -11,14 +11,12 @@ const ProsSection = () => {
         <S.Title>What's in my program?</S.Title>
         {ProsData.map((item) => {
           return (
-            <>
-              <Pro
-                key={item.title + item.subtitle}
-                src={item.src}
-                title={item.title}
-                subtitle={item.subtitle}
-              />
-            </>
+            <Pro
+              key={item.id}
+              src={item.src}
+              title={item.title}
+              subtitle={item.subtitle}
+            />
           );
         })}
       </S.Container>
