@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const PlanSection = styled.section`
-  margin: 16px auto;
+  margin: 16px auto 48px;
   max-width: 785px;
   padding: 0 10px;
 `;

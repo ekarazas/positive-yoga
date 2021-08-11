@@ -34,6 +34,10 @@ export const SecondConditionText = styled.div`
   text-align: center;
 `;
 
+export const CenteredButton = styled.div`
+  text-align: center;
+`;
+
 export const StyledLink = styled.a`
   color: #90caf9;
 `;

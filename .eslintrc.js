@@ -18,5 +18,6 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'react/prop-types': 'off',
     'react/no-unescaped-entities': 'off',
+    'object-curly-newline': 'off',
   },
 };

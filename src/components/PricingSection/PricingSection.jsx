@@ -42,7 +42,9 @@ const PricingSection = () => {
           setCheckState={setCheckedState}
           index={3}
         />
-        <Button>Get your plan</Button>
+        <S.CenteredButton>
+          <Button>Get your plan</Button>
+        </S.CenteredButton>
         <S.ConditionsText>
           Your free trial will automatically become a paid subscription on the
           8th day after you begin your trial. To cancel your subscription,
