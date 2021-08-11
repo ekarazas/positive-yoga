@@ -15,5 +15,8 @@ module.exports = {
   rules: {
     'arrow-body-style': 'off',
     'import/prefer-default-export': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/prop-types': 'off',
+    'react/no-unescaped-entities': 'off',
   },
 };
